@@ -1,0 +1,1 @@
+../hyperf/command-easyswoole/hyperf.php

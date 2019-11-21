@@ -1,0 +1,351 @@
+[2019-11-13 16:58:24 *66831.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66829.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66826.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66823.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66824.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66825.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 $66807.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66830.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 *66827.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 16:58:24 $66807.0]	WARNING	swManager_check_exit_status: worker#11[pid=66835] abnormal exit, status=0, signal=1
+[2019-11-13 16:58:24 $66807.0]	WARNING	swManager_check_exit_status: worker#10[pid=66834] abnormal exit, status=0, signal=1
+[2019-11-13 16:58:24 $66807.0]	WARNING	swManager_check_exit_status: worker#9[pid=66833] abnormal exit, status=0, signal=1
+[2019-11-13 16:58:24 $66807.0]	WARNING	swManager_check_exit_status: worker#8[pid=66832] abnormal exit, status=0, signal=1
+object(EasySwoole\Mysqli\Client)#74 (5) {
+  ["config":protected]=>
+  object(EasySwoole\Mysqli\Config)#75 (10) {
+    ["host":protected]=>
+    string(9) "127.0.0.1"
+    ["user":protected]=>
+    string(4) "root"
+    ["password":protected]=>
+    string(8) "rootroot"
+    ["database":protected]=>
+    string(10) "easyswoole"
+    ["port":protected]=>
+    int(3306)
+    ["timeout":protected]=>
+    int(3)
+    ["charset":protected]=>
+    string(7) "utf8mb4"
+    ["strict_type":protected]=>
+    bool(false)
+    ["fetch_mode":protected]=>
+    bool(false)
+    ["maxReconnectTimes":protected]=>
+    int(3)
+  }
+  ["mysqlClient":protected]=>
+  NULL
+  ["queryBuilder":protected]=>
+  object(EasySwoole\Mysqli\QueryBuilder)#76 (26) {
+    ["prefix":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["lastPrepareQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["lastBindParams":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["lastQueryOptions":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["lastQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_join":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_where":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_union":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_joinAnd":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_having":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_orderBy":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_groupBy":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_queryOptions":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_tableLockMethod":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(4) "READ"
+    ["_bindParams":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(1) {
+      [0]=>
+      string(0) ""
+    }
+    ["_isSubQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_updateColumns":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_nestJoin":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_tableName":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["_forUpdate":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_lockInShareMode":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_subQueryAlias":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["_limit":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_field":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(1) "*"
+    ["_lastInsertId":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_query":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+  }
+  ["lastQueryBuilder":protected]=>
+  NULL
+  ["onQuery":protected]=>
+  NULL
+}
+object(EasySwoole\Mysqli\Client)#88 (5) {
+  ["config":protected]=>
+  object(EasySwoole\Mysqli\Config)#87 (10) {
+    ["host":protected]=>
+    string(9) "127.0.0.1"
+    ["user":protected]=>
+    string(4) "root"
+    ["password":protected]=>
+    string(8) "rootroot"
+    ["database":protected]=>
+    string(10) "easyswoole"
+    ["port":protected]=>
+    int(3306)
+    ["timeout":protected]=>
+    int(3)
+    ["charset":protected]=>
+    string(7) "utf8mb4"
+    ["strict_type":protected]=>
+    bool(false)
+    ["fetch_mode":protected]=>
+    bool(false)
+    ["maxReconnectTimes":protected]=>
+    int(3)
+  }
+  ["mysqlClient":protected]=>
+  NULL
+  ["queryBuilder":protected]=>
+  object(EasySwoole\Mysqli\QueryBuilder)#89 (26) {
+    ["prefix":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["lastPrepareQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["lastBindParams":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["lastQueryOptions":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["lastQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_join":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_where":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_union":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_joinAnd":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_having":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_orderBy":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_groupBy":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_queryOptions":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_tableLockMethod":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(4) "READ"
+    ["_bindParams":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(1) {
+      [0]=>
+      string(0) ""
+    }
+    ["_isSubQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_updateColumns":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_nestJoin":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_tableName":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["_forUpdate":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_lockInShareMode":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_subQueryAlias":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["_limit":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_field":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(1) "*"
+    ["_lastInsertId":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_query":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+  }
+  ["lastQueryBuilder":protected]=>
+  NULL
+  ["onQuery":protected]=>
+  NULL
+}
+object(EasySwoole\Mysqli\Client)#74 (5) {
+  ["config":protected]=>
+  object(EasySwoole\Mysqli\Config)#75 (10) {
+    ["host":protected]=>
+    string(9) "127.0.0.1"
+    ["user":protected]=>
+    string(4) "root"
+    ["password":protected]=>
+    string(8) "rootroot"
+    ["database":protected]=>
+    string(10) "easyswoole"
+    ["port":protected]=>
+    int(3306)
+    ["timeout":protected]=>
+    int(3)
+    ["charset":protected]=>
+    string(7) "utf8mb4"
+    ["strict_type":protected]=>
+    bool(false)
+    ["fetch_mode":protected]=>
+    bool(false)
+    ["maxReconnectTimes":protected]=>
+    int(3)
+  }
+  ["mysqlClient":protected]=>
+  NULL
+  ["queryBuilder":protected]=>
+  object(EasySwoole\Mysqli\QueryBuilder)#76 (26) {
+    ["prefix":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["lastPrepareQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["lastBindParams":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["lastQueryOptions":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["lastQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_join":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_where":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_union":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_joinAnd":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_having":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_orderBy":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_groupBy":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_queryOptions":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(0) {
+    }
+    ["_tableLockMethod":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(4) "READ"
+    ["_bindParams":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    array(1) {
+      [0]=>
+      string(0) ""
+    }
+    ["_isSubQuery":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_updateColumns":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_nestJoin":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_tableName":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["_forUpdate":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_lockInShareMode":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    bool(false)
+    ["_subQueryAlias":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(0) ""
+    ["_limit":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_field":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    string(1) "*"
+    ["_lastInsertId":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+    ["_query":"EasySwoole\Mysqli\QueryBuilder":private]=>
+    NULL
+  }
+  ["lastQueryBuilder":protected]=>
+  NULL
+  ["onQuery":protected]=>
+  NULL
+}
+[2019-11-13 16:59:16 #98876.4]	INFO	Server is shutdown now
+[2019-11-13 17:07:39 $3377.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3404.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3402.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3401.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3400.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3399.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3397.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3398.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 *3396.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-13 17:07:39 $3377.0]	WARNING	swManager_check_exit_status: worker#11[pid=3408] abnormal exit, status=0, signal=1
+[2019-11-13 17:07:39 $3377.0]	WARNING	swManager_check_exit_status: worker#10[pid=3407] abnormal exit, status=0, signal=1
+[2019-11-13 17:07:39 $3377.0]	WARNING	swManager_check_exit_status: worker#9[pid=3406] abnormal exit, status=0, signal=1
+[2019-11-13 17:07:39 $3377.0]	WARNING	swManager_check_exit_status: worker#8[pid=3405] abnormal exit, status=0, signal=1
+[41m[2019-11-13 17:07:44][DEBUG][ERROR] : [Call to undefined method EasySwoole\Mysqli\Client::insert() at file:/Users/wangtiejun/swoole/easyswoole/App/HttpController/Index.php line:23][0m
+bool(true)
+array(1) {
+  [0]=>
+  array(3) {
+    ["id"]=>
+    int(1)
+    ["name"]=>
+    string(6) "小二"
+    ["mobile"]=>
+    string(11) "13212344321"
+  }
+}
+[2019-11-14 16:36:41 #19277.4]	INFO	Server is shutdown now
+[2019-11-21 10:18:45 *91650.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91645.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91648.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91651.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91644.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91646.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91649.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 *91647.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 $91643.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#11[pid=91655] abnormal exit, status=0, signal=1
+[2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#10[pid=91654] abnormal exit, status=0, signal=1
+[2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#9[pid=91653] abnormal exit, status=0, signal=1
+[2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#8[pid=91652] abnormal exit, status=0, signal=1
