@@ -8,7 +8,6 @@ use EasySwoole\Http\Request;
 use EasySwoole\Http\Response;
 use EasySwoole\ORM\Db\Connection;
 use EasySwoole\ORM\DbManager;
-use EasySwoole\ORM\Db\Config;
 
 class EasySwooleEvent implements Event
 {
@@ -22,7 +21,7 @@ class EasySwooleEvent implements Event
     public static function mainServerCreate(EventRegister $register)
     {
         // TODO: Implement mainServerCreate() method.
-        $config = new Config(Config::getInstance()->getConf('MYSQL'));
+        $config = new \EasySwoole\ORM\Db\Config(Config::getInstance()->getConf('MYSQL'));
         DbManager::getInstance()->addConnection(new Connection($config));
     }
 
