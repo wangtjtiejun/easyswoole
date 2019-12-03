@@ -47,7 +47,7 @@ class ViewServiceProvider extends ServiceProvider
             // for great testable, flexible composers for the application developer.
             $factory->setContainer($app);
 
-            $factory->share('one', $app);
+            $factory->share('app', $app);
 
             return $factory;
         });

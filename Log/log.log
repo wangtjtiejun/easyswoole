@@ -1,0 +1,87 @@
+[2019-11-21 18:29:37][DEBUG][ERROR] : [Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[48] in /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(114): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Arra at file:/Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2019-11-21 18:30:35][DEBUG][ERROR] : [Uncaught Error: Call to undefined method EasySwoole\ORM\Db\Config::getInstance() in /Users/wangtiejun/swoole/easyswoole/EasySwooleEvent.php:25
+Stack trace:
+#0 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Core.php(118): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(52): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /Users/wangtiejun/swoole/easyswoole/easyswoole(24): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/Users/wangtiejun/swoole/easyswoole/EasySwooleEvent.php line:25]
+[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 10:39:19][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-22 11:03:06][DEBUG][ERROR] : [Uncaught EasySwoole\Redis\Exception\RedisClusterException: 节点服务器获取失败 in /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php:188
+Stack trace:
+#0 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(738): EasySwoole\Redis\RedisCluster->tryConnectServerList()
+#1 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(151): EasySwoole\Redis\RedisCluster->sendCommandByClient(Array, Object(EasySwoole\Redis\ClusterClient))
+#2 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(125): EasySwoole\Redis\RedisCluster->getServerNodesList(Object(EasySwoole\Redis\ClusterClient))
+#3 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(63): EasySwoole\Redis\RedisCluster->nodeInit()
+#4 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis-pool/src/RedisPool.php(23): EasySwoole\Redis\RedisCluster->__construct(Object(EasySwoole\Redis\Config\RedisClusterConfig))
+#5 [int at file:/Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php line:188]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-11-26 15:54:53][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-02 16:17:02][DEBUG][WARNING] : [fopen(): Filename cannot be empty at file:/Users/wangtiejun/swoole/easyswoole/vendor/phpunit/phpunit/src/Util/FileLoader.php line:37]
+[2019-12-02 16:17:02][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:02:31][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:08:19][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:39:14][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:41:50][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:44:05][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:44:11][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:44:18][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:44:27][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]
+[2019-12-03 11:44:33][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0]

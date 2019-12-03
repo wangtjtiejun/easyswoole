@@ -18,6 +18,7 @@ class Router extends AbstractRouter
     function initialize(RouteCollector $routeCollector)
     {
         // TODO: Implement initialize() method.php easyswoole
+        $routeCollector->get('/redis', '/Example/Redis/index');
         $routeCollector->get('/user', '/index.html');
         $routeCollector->get('/rpc', '/Rpc/index');
         $routeCollector->get('/', '/Index/index');

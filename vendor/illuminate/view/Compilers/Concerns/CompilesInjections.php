@@ -18,6 +18,6 @@ trait CompilesInjections
 
         $service = trim($segments[1]);
 
-        return "<?php \${$variable} = one('{$service}'); ?>";
+        return "<?php \${$variable} = app('{$service}'); ?>";
     }
 }

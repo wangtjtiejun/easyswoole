@@ -349,3 +349,76 @@ array(1) {
 [2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#10[pid=91654] abnormal exit, status=0, signal=1
 [2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#9[pid=91653] abnormal exit, status=0, signal=1
 [2019-11-21 10:18:45 $91643.0]	WARNING	swManager_check_exit_status: worker#8[pid=91652] abnormal exit, status=0, signal=1
+[2019-11-22 10:17:35 *2449.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2445.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2447.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2448.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2446.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2450.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2452.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 *2451.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 $2444.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:17:35 $2444.0]	WARNING	swManager_check_exit_status: worker#11[pid=2456] abnormal exit, status=0, signal=1
+[2019-11-22 10:17:35 $2444.0]	WARNING	swManager_check_exit_status: worker#10[pid=2455] abnormal exit, status=0, signal=1
+[2019-11-22 10:17:35 $2444.0]	WARNING	swManager_check_exit_status: worker#9[pid=2454] abnormal exit, status=0, signal=1
+[2019-11-22 10:17:35 $2444.0]	WARNING	swManager_check_exit_status: worker#8[pid=2453] abnormal exit, status=0, signal=1
+[2019-11-22 10:17:43 #8604.4]	INFO	Server is shutdown now
+[42m[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-22 10:17:43][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[2019-11-22 10:39:10 $8653.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8660.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8656.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8661.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8654.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 $8653.0]	WARNING	swManager_check_exit_status: worker#11[pid=8665] abnormal exit, status=0, signal=1
+[2019-11-22 10:39:10 *8659.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8655.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8657.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 *8658.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:39:10 $8653.0]	WARNING	swManager_check_exit_status: worker#10[pid=8664] abnormal exit, status=0, signal=1
+[2019-11-22 10:39:10 $8653.0]	WARNING	swManager_check_exit_status: worker#9[pid=8663] abnormal exit, status=0, signal=1
+[2019-11-22 10:39:10 $8653.0]	WARNING	swManager_check_exit_status: worker#8[pid=8662] abnormal exit, status=0, signal=1
+[2019-11-22 10:47:41 *8887.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8884.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 $8879.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8885.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8883.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8882.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8880.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8881.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 *8886.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-22 10:47:41 $8879.0]	WARNING	swManager_check_exit_status: worker#11[pid=8891] abnormal exit, status=0, signal=1
+[2019-11-22 10:47:41 $8879.0]	WARNING	swManager_check_exit_status: worker#10[pid=8890] abnormal exit, status=0, signal=1
+[2019-11-22 10:47:41 $8879.0]	WARNING	swManager_check_exit_status: worker#9[pid=8889] abnormal exit, status=0, signal=1
+[2019-11-22 10:47:41 $8879.0]	WARNING	swManager_check_exit_status: worker#8[pid=8888] abnormal exit, status=0, signal=1
+[2019-11-22 11:03:06 *9196.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Redis\Exception\RedisClusterException: 节点服务器获取失败 in /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php:188
+Stack trace:
+#0 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(738): EasySwoole\Redis\RedisCluster->tryConnectServerList()
+#1 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(151): EasySwoole\Redis\RedisCluster->sendCommandByClient(Array, Object(EasySwoole\Redis\ClusterClient))
+#2 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(125): EasySwoole\Redis\RedisCluster->getServerNodesList(Object(EasySwoole\Redis\ClusterClient))
+#3 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php(63): EasySwoole\Redis\RedisCluster->nodeInit()
+#4 /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis-pool/src/RedisPool.php(23): EasySwoole\Redis\RedisCluster->__construct(Object(EasySwoole\Redis\Config\RedisClusterConfig))
+#5 [int in /Users/wangtiejun/swoole/easyswoole/vendor/easyswoole/redis/src/RedisCluster.php on line 188
+[2019-11-22 11:03:06 $9192.0]	WARNING	swManager_check_exit_status: worker#3[pid=9196] abnormal exit, status=255, signal=0
+[2019-11-24 03:44:39 #9544.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9552.6]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9548.2]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9546.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9549.3]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9551.5]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 $9545.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9550.4]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9547.1]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 *9553.7]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-11-24 03:44:39 $9545.0]	WARNING	swManager_check_exit_status: worker#11[pid=9557] abnormal exit, status=0, signal=1
+[2019-11-24 03:44:39 $9545.0]	WARNING	swManager_check_exit_status: worker#10[pid=9556] abnormal exit, status=0, signal=1
+[2019-11-24 03:44:39 $9545.0]	WARNING	swManager_check_exit_status: worker#9[pid=9555] abnormal exit, status=0, signal=1
+[2019-11-24 03:44:39 $9545.0]	WARNING	swManager_check_exit_status: worker#8[pid=9554] abnormal exit, status=0, signal=1
+[2019-11-26 15:54:52 #9544.4]	INFO	Server is shutdown now
+[42m[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
+[42m[2019-11-26 15:54:52][DEBUG][INFO] : [Module 'swoole' already loaded at file:Unknown line:0][0m
